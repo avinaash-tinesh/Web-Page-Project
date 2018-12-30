@@ -1,0 +1,3 @@
+Project Synopsis - 
+
+My project aims to employ machine learning and deep learning to analyze patient data and classify instances of diabetes. The project will be comparing these models against each other with the aims of identifying the most accurate classification method and statistically analyze the variables within the patient data to show the variables that correlate the most with the resultant classification. This would hopefully mean that small variances in the patients biodata will affect the classfication confidence and thus allow for much earlier diagnosis of potential diabetics.  

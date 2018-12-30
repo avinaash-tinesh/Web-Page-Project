@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
 
     <!-- JS imports -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -20,74 +21,128 @@
 </head>
 
 <body>
-    <section class="section-nav">
-        <div class="container">
-            <nav class="nav justify-content-center">
-                <a class="nav-link" href="index.html">Home</a>
-                <a class="nav-link" href="#about-me">About Me</a>
+    <section class="section-nav sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html#section-showcase">Avinaash Tinesh</a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="material-icons" style="color: black;">menu</span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+                <a class="nav-link" href="index.html#about-me">About Me</a>
                 <a class="nav-link" href="projects.html">Projects</a>
-                <a class="nav-link" href="#contact-me">Contact</a>
-            </nav>
-        </div>
+                <a class="nav-link" href="index.html#contact-me">Contact</a>
+            </div>
+        </nav>
     </section>
     <br>
     <br>
     <!-- This section is about any projects I have done... (including assignment projects I would like to showcase) -->
-    <section class="section-c">
+    <section class="section-d">
     	<div class="container">
             <h3 class="section-heading">
                 University Projects
             </h3>
             <br>
     		<div class="row align-items-center">
-                <div class="col">
+                <div class="col-12">
                     <h5 class="section-heading">
                         TSP Color Optimization using Python
                     </h5>
-                </div>
+                    <p class="section-description">
+                       This project was a group assignment where we were given a set of RGB colors and were to make use of some heuristics and meta-heuristics to reduce the "distance" between each color point. This is akin to the Travelling Salesman Problem. Here the "points" were color values and it was implemented for a set of 100 colors and 500 colors. This project implemented a Greedy Constructive Heuristic, and a Single Start and Multi-Start Variant of the Hill Climbing and Simulated Annealing heuristics respectively.   
+                    </p>
+                    <div class="col text-center">
+                      <button class="btn btn-outline-dark" href="#">Click here to see the project on GitHub</button>
+                    </div>
+               </div>
             </div>
             <hr>
             <div class="row align-items-center">
-                <div class="col">
+                <div class="col-12">
                     <h5 class="section-heading">
                         Spam-Email Classifier using Python and Sci-Kit Learn
                     </h5>
+                    <p class="section-description">
+                       This was a project where we were provided with a dataset of consisting of a subset of the Ling-Spam corpus. This dataset was organized neatly into Spam and Non-Spam and we were to use classifier models from the Sci-Kit Learn framework to classify spam from non-spam emails with a respectable degree of accuracy. Additionally, we were encouraged to use models of our own choosing other than the Support Vector Machine (SVM) perscribed for the assignment and an additional dataset of our choice to see how the model performs on data that was not prepared for us. As such, this project uses a subset of the Enron spam email corpus that was organized into spam and non-spam and processed for duplicate files. This project uses the Linear SVM, Random Forest Classifier and Multilayer Perceptron Classifier provided within this framework.  
+                    </p>
+                    <div class="col text-center">
+                      <button class="btn btn-outline-dark" href="#">Click here to see the project on GitHub</button>
+                    </div>
                 </div>
             </div>
             <hr>
             <div class="row align-items-center">
-                <div class="col">
+                <div class="col-12">
                     <h5 class="section-heading">
                         Java RMI based Token Ring Network
                     </h5>
+                    <p class="section-description">
+                       This project was from our Distributed Systems and Concurrency course. Here we were to implement a token passing network in Java using JavaRMI. This was an extension on some of the laboratory practicals we were guided through during the course. This version is missing one function where one would pass a "kill" token through the network to shut down every node and exit the process. This will be implemented in the future once I am back at my main desktop.   
+                    </p>
+                    <div class="col text-center">
+                      <button class="btn btn-outline-dark" href="#">Click here to see the project on GitHub</button>
+                    </div>
                 </div>
             </div>
             <hr>
             <div class="row align-items-center">
-                <div class="col">
+                <div class="col-12">
                     <h5 class="section-heading">
                         Mock up Aircraft Management System using Java (Group Project)
                     </h5>
+                    <p class="section-description">
+                       This was a group project where we were to make a somewhat large program using Java. This project was primarily assessing our capabilities of working in a small development team and our Java ability overall.   
+                    </p>
+                    <div class="col text-center">
+                      <button class="btn btn-outline-dark" href="#">Click here to see the project on GitHub</button>
+                    </div>
                 </div>
             </div>
             <hr>
             <div class="row align-items-center">
-                <div class="col">
+                <div class="col-12">
                     <h5 class="section-heading">
                         UML Project (Group Project)
                     </h5>
+                    <p class="section-description">
+                       This was a similar project to the one described above, however, instead of building anything in Java or any other programming language, this was primarily a task assessing of our capability of understanding the beginnings of a software development project and the steps one would need to take in the line of work.   
+                    </p>
+                    <div class="col text-center">
+                      <button class="btn btn-outline-dark" href="#">Click here to see the project on GitHub</button>
+                    </div>
                 </div>
             </div>
             <hr>
             <div class="row align-items-center">
-                <div class="col">
+                <div class="col-12">
                     <h5 class="section-heading">
                         Website Prototype for Multimedia course
                     </h5>
+                    <p class="section-description">
+                       This project was one where we were to create a prototype website of our choice assessing our understanding of design concepts and principles, primarily the ideas one would need to keep in mind when designing something for users to interact with.  
+                       <br>
+                       <br>
+                       <b>Note: </b>This project is not yet uploaded to GitHub nor hosted anywhere yet...
+                       The link will be active when its uploaded to GitHub
+                    </p>
+                    <div class="col text-center">
+                      <button class="btn btn-outline-dark disabled" href="#">Click here to see the project on GitHub</button>
+                    </div>
                 </div>
             </div>
+            <br>
     	</div>
     </section>
+    <section class="section-footer">
+        <div class="container">
+            <hr>
+            <div class="col-12 text-center">
+                <h6><i class="material-icons" style="font-size: 14px;">copyright</i> Avinaash Tinesh | Designed by Avinaash Tinesh</h6>
+            </div>
+            <hr>
+        </div>
+    </section>
+
 </body>
 
 </html>

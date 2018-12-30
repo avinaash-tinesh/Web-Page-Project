@@ -12,65 +12,78 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
     <!-- JS imports -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/scipts.js"></script>
 </head>
 
 <body>
+    <section class="section-nav sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand h1" href="index.html">Avinaash Tinesh</a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="material-icons" style="color: black;">menu</span>
+            </button>
+            <div class="collapse navbar-collapse navigation justify-content-end" id="navbarContent" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a href="#about-me" class="nav-link">About Me</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="#contact-me" class="nav-link">Contact</a>
+            </div>
+        </nav>
+    </section>
     <section class="section-showcase">
         <div class="showcase">
             <h2 class="text-center align-middle">
-                Hey there,
-                my name is Avinaash!
+                Hey there, my name is Avinaash!
             </h2>
             <p class="showcase-description">
                 Welcome to my personal website!
             </p>
         </div>
-    </section>
-    <br>
-    <br>
-    <br>
-    <section class="section-nav">
-        <div class="container">
-            <nav class="nav justify-content-center">
-                <a class="nav-link" href="index.html">Home</a>
-                <a class="nav-link" href="#about-me">About Me</a>
-                <a class="nav-link" href="projects.html">Projects</a>
-                <a class="nav-link" href="#contact-me">Contact</a>
-            </nav>
-        </div>
-    </section>
-    <br>
-    <br>
-    <!-- This section is about me -->
-    <section class="section-a">
+        <br>
+        <br>
+        <br>
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <p class="section-description">
-                        Hey there! I'm Avinaash! I am currently a final year student at the University of Stirling, studying for a Bachelors degree in Software Engineering. Welcome to my personal website! You can find links to some of the assignments I have done so far in university and a few pet projects here and there. 
+                        Hey there! I'm Avinaash! I am currently a final year student at the University of Stirling, studying for a Bachelors degree in Software Engineering. This is my personal website! You can find links to some of the assignments I have done so far in university and a few pet projects here and there. 
                     </p>
+                    <hr>
                 </div>
             </div>
-            <hr>
+        </div>
+    </section>
+    <section class="section-b" id="about-me">
+        <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h4 class="section-heading" id="about_me.html">
+                    <h4 class="section-heading">
                         About me
                     </h4>
-                    <p class="section-description">
-                        Computers, they are slick looking machines that can do really cool stuff! Wondering how exactly they worked sparked my interest in them and sci-fi movies and comic book movies only mademe more interested. Movies like Tron and comics like Iron Man started to show me that there was such a thing as Computing and that you could learn it!
-                    </p>
-                    <p class="section-description">
-                        This fascination eventually drove me to my degree of choice and the city of Stirling.                          
-                    </p>
-                    <p class="section-description">
-                        So far my time in the university has provided me with key concepts and principles that surround this amazing field! On top of that, we were given the opportunity to attend networking events where I got to meet companies like Morgan Stanley, Leonardo, Adobe and see the opportunities that lie before me. The conversations I had with people from these companies gave me a different perspective on the industry and solidified my desire to learn more and join it. 
-                    </p>
+                    <div class="float-lg-right profile-lg">
+                        <img class="round" src="images/avinaash-tinesh.jpg" style="width: 225px;height: 293px;">
+                    </div>
+                    <div class="float-lg-right profile-responsive">
+                        <img class="round" src="images/avinaash-tinesh-mobile.jpg" style="width: 225px;height: 225px;">
+                    </div>
+                    <br>
+                    <div class="col-lg-8 float-lg-left">
+                        <p class="section-description">
+                            Computers, they are slick looking machines that can do really cool stuff! Wondering how exactly they worked sparked my interest in them and sci-fi movies and comic book movies only mademe more interested. Movies like Tron and comics like Iron Man started to show me that there was such a thing as Computing and that you could learn it!
+                        </p>
+                        <p class="section-description">
+                            This fascination eventually drove me to my degree of choice and the city of Stirling.                          
+                        </p>
+                        <p class="section-description">
+                            So far my time in the university has provided me with key concepts and principles that surround this amazing field! On top of that, we were given the opportunity to attend networking events where I got to meet companies like Morgan Stanley, Leonardo, Adobe and see the opportunities that lie before me. The conversations I had with people from these companies gave me a different perspective on the industry and solidified my desire to learn more and join it. 
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -78,27 +91,42 @@
     <br>
     <br>
     <!-- This section is all my contact info (LinkedIn, Gmail, phone number and university email) -->
-    <section class="section-b">
-        <div class="container" id="contact-me">
+    <section class="section-c">
+        <div class="container">
+            <hr>
             <div class="row">
-                <div class="col-12">
-                    <h4 class="section-heading">
-                        Get in contact!
-                    </h4>
-                    <p class="section-description">
-                        Want to get in touch? 
-                        Find me at any of these!
+                <div class="col-md-9">
+                    <h5>Contact Details</h5>
+                    <p class="section-description contact">
+                        <i class="fa fa-envelope"></i>
+                        <span class="reverse-text">ku.ca.rits.stneduts@4000sva</span>
+                    </p>
+                    <p class="section-description contact">
+                        <i class="fa fa-phone"></i>
+                        <span>(+44) 07706788444</span>
                     </p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <p class="section-description">
-                        Here's my CV!
-                    </p>
+                <div class="col-md-3 connect">
+                    <h5>Connect with me</h5>
+                    <div class="connect-items">
+                    <a href="https://www.instagram.com/avinaash.tinesh/" style="padding: 10px 9px;"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/avinaash-tinesh-89b631156/" style="padding: 10px 9px;"><i class="fa fa-linkedin"></i></a>
+                    <p></p>
+                    <a href="https://github.com/avinaash-tinesh"><i class="fa fa-github" style="padding: 10px 8px;"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100011078677796" style="padding: 10px 12px;"><i class="fa fa-facebook"></i></a>
+                    </div>
                 </div>
             </div>
         </div>  
+    </section>
+    <section class="section-footer">
+        <div class="container">
+            <hr>
+            <div class="col-12 text-center">
+                <h6><i class="material-icons" style="font-size: 14px;">copyright</i> Avinaash Tinesh | Designed by Avinaash Tinesh</h6>
+            </div>
+            <hr>
+        </div>
     </section>
 </body>
 </html>

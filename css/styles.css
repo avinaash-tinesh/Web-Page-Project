@@ -15,16 +15,93 @@
 }
 
 .showcase-description {
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .section-description {
     margin-top: 0.2rem;
 }
 
+.section-footer h6 {
+    color: #adadad;
+}
+
+.section-nav {
+    background-color: #4db6ac;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none; 
+}
+
+.round {
+    border-radius: 0.8rem !important;
+    width: 225px;
+    height: 293px;
+}
+
+.profile-responsive {
+    display: none;
+}
+
+.reverse-text {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.connect {
+    font-size: 30px;
+}
+
+.contact {
+    padding-top: 10px;
+}
+
+@media(min-width: 1000px) {
+    .connect-items {
+        margin-left: 2rem;
+    }
+}
+
+@media(max-width: 1000px) {
+    .round {
+       text-align: center;  
+       margin-top: 2rem;
+       border-radius: 50% !important;
+       content: url(images/avinaash-tinesh-test1.jpg);
+    }
+
+    .profile-lg {
+        display: none;
+    }
+
+    .profile-responsive {
+        display: block;
+        text-align: center;
+    }
+
+    .section-c {
+        text-align: center !important;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
 hr {
     margin-top: 1.5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+a, a:active, a:hover {
+    color: black;
 }
 
 #nav ul li{

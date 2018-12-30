@@ -1,0 +1,24 @@
+Rcepient: dr_norazizah@moh.gov.my
+
+
+Dear Dato' Dr Nor Azizah,
+
+
+My name is Avinaash Tinesh, I am a final year Software Engineering student at the University of Stirling (Scotland) currently working on my honors project. My project aims to employ machine learning and deep learning methods to analyze clinical data and classify potential instances of diabetes.
+
+The project will be comparing these models aiming to identify the most accurate classification method and to statistically derive the variables which display the strongest correlation to the resultant classification. 
+
+This would hopefully imply that observing small variances in the patients biodata will affect the resultant classification confidence. Thus, assisting medical professionals to effectively identify cases of potential diabetes early and/or observe any improvements in the patient's condition. 
+
+
+
+I had initially contacted the Clinical Research Center in Penang GH and they directed me to Madam Sabrina Haja Mydin and she responded advising me to seek an appointment with you on Monday (31/12/2018) or Wednesday (02/01/2019). Her email can be found below. As such, I am emailing you directly to humbly request an appointment with you to discuss my project. 
+
+
+I am writing to you in the hopes that you may find my project interesting and would be willing to work with me on it. I would be more than happy to further explain my project to you in person. I eagerly await your response.
+
+
+
+Thanks and kind regards,
+
+Avinaash Tinesh 
